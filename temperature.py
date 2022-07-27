@@ -1,6 +1,6 @@
 """
 CP1404/CP5632 - Practical
-Temperature conversion
+Temperature conversion, with functions
 """
 
 MENU = """C - Convert Celsius to Fahrenheit
@@ -35,3 +35,6 @@ def convert_celsius_to_fahrenheit(celsius):
 def convert_fahrenheit_to_celsius(fahrenheit):
     """Convert fahrenheit to celsius"""
     return 5 / 9 * (fahrenheit - 32)
+
+
+main()
